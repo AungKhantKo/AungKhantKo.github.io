@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-center text-danger my-5">Register</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-3 col-lg-6">
+                <form action="">
+                    <!-- file upload -->
+                    <div class="mb-3">
+                        <label for="image" class="form-label">Photo</label>
+                        <input type="file" id="file" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" placeholder="example@gmail.com" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="phone" id="phone" placeholder="09*******" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Date of birth</label>
+                        <input type="date" id="date" class="form-control">
+                    </div>
+                    <!-- radio button -->
+                    <label for="gender" class="form-label d-block">Gender</label>
+                    <div class="form-check-inline">
+                        <input type="radio" id="gender_male" class="form-check-input" name="gender" value="male">
+                        <label for="male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" id="gender_female" class="form-check-input" name="gender" value="female">
+                        <label for="female" class="form-check-label">Female</label>
+                    </div>
+                    <!-- checkbox -->
+                    <label for="" class="form-label d-block mt-4">Hobbies</label>
+                    <div class="form-check">
+                        <input type="checkbox" name="reading" id="reading" class="form-check-input">
+                        <label for="reading" class="form-check-label">Reading</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="swimming" id="swimming" class="form-check-input">
+                        <label for="swimming" class="form-check-label">Swimming</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="singing" id="singing" class="form-check-input">
+                        <label for="singing" class="form-check-label">Singing</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="dancing" id="dancing" class="form-check-input">
+                        <label for="dancing" class="form-check-label">Dancing</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="listening" id="listening" class="form-check-input">
+                        <label for="listening" class="form-check-label">Listening</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="travelling" id="travelling" class="form-check-input">
+                        <label for="travelling" class="form-check-label">Travelling</label>
+                    </div>
+                    <!-- selectoption -->
+                    <label for="education" class="form-label mt-4">Education</label>
+                    <select name="" id="education" class="form-select">
+                        <option value="">High School</option>
+                        <option value="">Graduated</option>
+                        <option value="">Master</option>
+                    </select>
+
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <textarea name="address" id="address" cols="30" rows="10" class="form-control" placeholder="Enter your address"></textarea>
+                    </div>
+
+
+
+                    <button class="btn btn-success float-end mt-4">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
